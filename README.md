@@ -1,1 +1,1 @@
-# beacademy-devstart-php-db
+# Repositório para a entrega das atividades de PHP banco de dados
