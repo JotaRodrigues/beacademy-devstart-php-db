@@ -7,5 +7,5 @@
     <label for="description">Descrição</label>
     <textarea id="description" name="description" type="text" class="form-control"></textarea>
     
-    <button class="btn btn-primary">Enviar</button>
+    <button class="btn btn-primary mt-3">Enviar</button>
 </form>

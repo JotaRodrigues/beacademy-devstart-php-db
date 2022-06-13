@@ -15,7 +15,7 @@
             <th>Preço</th>
             <th>Quantidade</th>
             <th>Data de cadastro</th>
-            <th>Ações</th>
+            <th style="text-align: center;">Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -31,7 +31,7 @@
                     <td>R$ {$value}</td>
                     <td>{$quantity}</td>
                     <td>{$created_at}</td>
-                    <td><a href='/produtos/editar?id={$id}' class='btn btn-outline-warning btn-sm'>Editar</a> | 
+                    <td style='text-align: center;'><a href='/produtos/editar?id={$id}' class='btn btn-outline-warning btn-sm'>Editar</a> | 
                     <a href='/produtos/excluir?id={$id}' class='btn btn-outline-danger btn-sm'>Excluir</a>
                     </td>
                 </tr>";

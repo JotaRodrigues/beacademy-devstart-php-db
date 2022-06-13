@@ -10,7 +10,7 @@
             <th>#ID</th>
             <th>Nome</th>
             <th>Descrição</th>
-            <th>Ações</th>
+            <th style="text-align:center;">Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -22,7 +22,7 @@
                 echo "<td>{$id}</td>";
                 echo "<td>{$name}</td>";
                 echo "<td>{$description}</td>";
-                echo "<td>
+                echo "<td style='text-align:center;'>
                 <a href='/categorias/editar?id={$id}' class='btn btn-warning btn-sm'>Editar</a>
                 <a href='/categorias/excluir?id={$id}' class='btn btn-danger btn-sm'>Excluir</a>
                 </td>";
