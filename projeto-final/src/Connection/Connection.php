@@ -10,7 +10,7 @@
             // Fonecendo informação de acesso ao BD
             $database = 'db_store';
             $username = 'root';
-            $password = 'Prodark@12';
+            $password = '1234';
             
             // Criando uma conexão com o BD
             return new \PDO('mysql:host=localhost;dbname='.$database, $username, $password);
